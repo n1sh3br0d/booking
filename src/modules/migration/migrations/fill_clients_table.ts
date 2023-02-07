@@ -1,0 +1,1 @@
+export default `INSERT INTO clients (name) VALUES ${['Вася Петров', 'Иван Иванов'].map(e => `(\'${e}\')`).join(',')}`;

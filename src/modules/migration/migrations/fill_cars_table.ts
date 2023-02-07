@@ -1,0 +1,1 @@
+export default `INSERT INTO cars (government_number) VALUES ${['С200ХО190', 'Т666СА199', 'К888НР150', 'А005ТТ97', 'А222РМ750'].map(e => `(\'${e}\')`).join(',')}`;
